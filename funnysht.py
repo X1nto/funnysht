@@ -1,10 +1,13 @@
 #!/usr/bin/python3.6
 
 import sys
+from colorama import Fore
 
 if len (sys.argv) != 1 :
    print("Usage:", str(sys.argv[0]))
    sys.exit (1)
+
+print(f'{Fore.CYAN}Mini-Program by @X1nto{Fore.RESET}')
 
 print ('why are you gay')
 while True:
