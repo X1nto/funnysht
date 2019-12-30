@@ -18,7 +18,7 @@ if d1a == "A":
    if d1a == "A": 
       print('ok :(')
 elif d1a == "B":
-   print('Are you lLsbian, Homosexual or transgenda?')
+   print('Are you Lesbian, Homosexual or transgenda?')
    while True:
       d1a = input ('A)Lesbian \nB)Homosexual \nC)Transgenda \nD)Wai are u asking sir? \n[A/B/C/D]? :')
       if d1a in ['A', 'B', 'C', 'D']:
