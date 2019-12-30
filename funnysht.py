@@ -19,15 +19,18 @@ if d1a == "A":
       print('ok :(')
 elif d1a == "B":
    print('Are you lLsbian, Homosexual or transgenda?')
-   d1a = input ('A)Lesbian \nB)Homosexual \nC)Transgenda \nD)Wai are u asking sir? \n[A/B/C/D]? :')
-   if d1a == "A": 
-      print("Ya like girls?")
-   elif d1a == "B":
-      print('gtfo this app ffs')
-   elif d1a == "C":
-      print('ya like jazz?')
-   elif d1a == "D":  
-      print('becoz i can! [insert dab emoji here]')
+   while True:
+      d1a = input ('A)Lesbian \nB)Homosexual \nC)Transgenda \nD)Wai are u asking sir? \n[A/B/C/D]? :')
+      if d1a in ['A', 'B', 'C', 'D']:
+         break
+      if d1a == "A": 
+         print("Ya like girls?")
+      elif d1a == "B":
+         print('gtfo this app ffs')
+      elif d1a == "C":
+         print('ya like jazz?')
+      elif d1a == "D":  
+         print('becoz i can! [insert dab emoji here]')
     
 
 
