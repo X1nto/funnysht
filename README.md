@@ -1,5 +1,6 @@
-Requirements:
-Python3.6
+Requirements:  
+Python3.6  
+sys module (in most cases you don't need to manually install module)
 
-usage:
+Usage:
 ./funnysht.py
