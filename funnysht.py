@@ -1,4 +1,4 @@
-#!/usr/bin/python3.6
+#!/usr/bin/python3.8
 
 import sys
 from colorama import Fore
@@ -20,20 +20,21 @@ if d1a == "A":
    d1a = input ('A)NO U \n[A?]:')
    if d1a == "A": 
       print('ok :(')
+      
 elif d1a == "B":
    print('Are you Lesbian, Homosexual or transgenda?')
    while True:
       d1a = input ('A)Lesbian \nB)Homosexual \nC)Transgenda \nD)Wai are u asking sir? \n[A/B/C/D]? :')
       if d1a in ['A', 'B', 'C', 'D']:
          break
-      if d1a == "A": 
-         print("Ya like girls?")
-      elif d1a == "B":
-         print('gtfo this app ffs')
-      elif d1a == "C":
-         print('ya like jazz?')
-      elif d1a == "D":  
-         print('becoz i can! [insert dab emoji here]')
+if d1a == "A":
+    print("Ya like girls?")
+elif d1a == "B":
+    print('gtfo this app ffs')
+elif d1a == "C":
+    print('ya like jazz?')
+elif d1a == "D":  
+    print('becoz i can! [insert dab emoji here]')
     
 
 
