@@ -14,8 +14,8 @@ print(f'{Fore.CYAN}Mini-Program by @X1nto{Fore.RESET}')
 
 print('\nMAIN MENU\n')
 while True:
-    d1a = input ('1)Start \n2)Help \n3)About\n \n[1/2/3]?:')
-    if d1a in ['1', '2', '3']:
+    d1a = input ('1)Start \n2)Help \n3)About \n4)Exit\n \n[1/2/3/4]?:')
+    if d1a in ['1', '2', '3', '4']:
        break
 
 if d1a == "1":
@@ -87,3 +87,6 @@ elif d1a == "3":
         os.execl(sys.executable, sys.executable, *sys.argv)
     elif d1a == 'n':
         print ('ok bye!')
+
+elif d1a == '4':
+   print('Bye!')
